@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/doc"
+        android:title="Profile" />
+    <item
+        android:id="@+id/menuNotifications"
+        android:icon="@drawable/gol"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/menuCollection"
+        android:icon="@drawable/clock"
+        android:title="Collection" />
+    <item
+        android:id="@+id/menuInbox"
+        android:icon="@drawable/remar"
+        android:title="Inbox" />
+    <item
+        android:id="@+id/menuOrders"
+        android:icon="@drawable/share"
+        android:title="Orders" />
+    <item android:title="Others" >
+        <menu >
+            <item
+                android:id="@+id/menuSettings"
+                android:icon="@drawable/support"
+                android:title="Settings" />
+            <item
+                android:id="@+id/menuSupport"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Support" />
+        </menu>
+    </item>
+
+</menu>

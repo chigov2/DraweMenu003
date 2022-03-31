@@ -4,11 +4,13 @@
     <item
         android:id="@+id/menuProfile"
         android:icon="@drawable/doc"
-        android:title="Profile" />
+        android:title="Profile"
+        />
     <item
         android:id="@+id/menuNotifications"
         android:icon="@drawable/gol"
-        android:title="Notifications" />
+        android:title="Notifications"
+        />
     <item
         android:id="@+id/menuCollection"
         android:icon="@drawable/clock"

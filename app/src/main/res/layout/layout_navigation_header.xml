@@ -26,12 +26,30 @@
         app:layout_constraintBottom_toBottomOf="@id/imageProfile"/>
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:text="John"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Lena"
         android:textColor="@color/colorPrimaryText"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/viewSupporter"
+        app:layout_constraintStart_toEndOf="@+id/imageProfile"
+        app:layout_constraintTop_toTopOf="@+id/imageProfile" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="Verified"
+        android:textColor="@color/green"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/imageProfile" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

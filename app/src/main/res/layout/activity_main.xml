@@ -42,6 +42,24 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutToolBar"
+            android:id="@+id/navHostFragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/main"
+            />
+<!--
+                app:navGraph="@navigation/main"
+                app:defaultNavHost="true"
+                -->
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -49,6 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/layout_navigation_header"
         android:layout_gravity="left" />
 
 
